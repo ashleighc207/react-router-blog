@@ -2,7 +2,7 @@
   "name": "react-router-blog",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashleighc207.github.io/react-hangman/",
+  "homepage": "https://ashleighc207.github.io/react-router-blog/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.9.0",
