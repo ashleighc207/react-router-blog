@@ -21,6 +21,8 @@ class BlogList extends Component {
               content={b.body}
               author={b.author}
               date={b.date}
+              id={b.id}
+              key={b.id}
             />
           );
         })}

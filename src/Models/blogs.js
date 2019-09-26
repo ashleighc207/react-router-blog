@@ -5,6 +5,13 @@ const blogs = [
     body: "This is some body content... ",
     author: "Test Author",
     date: "September 26th, 2019"
+  },
+  {
+    id: "12346",
+    heading: "My Test Entryyyyyyy",
+    body: "This is some body content... ",
+    author: "Test Author",
+    date: "September 26th, 2019"
   }
 ];
 
