@@ -28,7 +28,7 @@ class BlogContent extends Component {
           <p>{this.state.blog.date}</p>
         </div>
         <div>
-          <p>{this.state.blog.content}</p>
+          <p>{this.state.blog.body}</p>
         </div>
         <div>
           <Link to="/">

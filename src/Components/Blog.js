@@ -11,18 +11,23 @@ class Blog extends Component {
   }
   render() {
     return (
-      <section>
-        <h3>{this.props.heading}</h3>
-        <div>
-          <p>By: {this.props.author}</p>
-          <p>{this.props.date}</p>
+      <section className="Blog">
+        <h3 className="Blog--heading">{this.props.heading}</h3>
+        <div className="Blog--byline">
+          <p className="Blog--byline_author">By: {this.props.author}</p>
+          <p className="Blog--byline_date">{this.props.date}</p>
         </div>
-        <div>
-          <p>{this.props.content}</p>
+        <div className="Blog--content">
+          <p className="Blog--content_text">
+            {this.props.content.substring(0, 240) + "..."}
+          </p>
         </div>
-        <div>
-          <Link to={`/blog/${this.props.id}`}>
-            Read More <i className="material-icons">keyboard_arrow_right</i>
+        <div className="Blog--read_more">
+          <Link to={`/blog/${this.props.id}`} className="Blog--read_more_link">
+            Read More
+            <i className="material-icons Blog--read_more_icon">
+              keyboard_arrow_right
+            </i>
           </Link>
         </div>
       </section>

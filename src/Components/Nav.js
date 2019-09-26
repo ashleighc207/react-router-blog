@@ -6,7 +6,7 @@ class Nav extends Component {
     return (
       <nav className="Nav">
         <i className="material-icons Nav--icon">code</i>
-        <p className="Nav--text"> Blog </p>
+        <p className="Nav--text"> Dog Blog </p>
       </nav>
     );
   }

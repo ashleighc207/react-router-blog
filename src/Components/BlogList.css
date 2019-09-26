@@ -1,3 +1,7 @@
 .BlogList {
   font-family: "Quicksand", sans-serif;
 }
+
+.BlogList--heading {
+  margin-left: 1em;
+}
