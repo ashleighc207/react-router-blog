@@ -13,7 +13,7 @@ class BlogList extends Component {
   render() {
     return (
       <main className="BlogList">
-        <h1 className="BlogList--heading"> Recent Items </h1>
+        <h1 className="BlogList--heading"> Recent Blogs </h1>
         {this.state.blogs.map(b => {
           return (
             <Blog
