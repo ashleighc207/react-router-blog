@@ -9,7 +9,8 @@ _Note: this is not the official project #13 of the bootcamp - that was a vending
 
 - See the site live here: https://ashleighc207.github.io/react-router-blog/
 
-<!-- <img src="example.png" alt="Example image" width="350" align="center"/> -->
+<img src="example.png" alt="Example image" width="350" align="center"/>
+<img src="example-1.png" alt="Example image" width="350" align="center"/>
 
 ## How to Launch the App
 
