@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://ashleighc207.github.io/react-router-blog/",
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-router-dom": "^5.1.0",
-    "react-scripts": "3.1.2",
-    "uuid": "^3.3.3"
+    "gh-pages": "^3.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "uuid": "^8.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

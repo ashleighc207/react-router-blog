@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./BlogList.css";
 import Blog from "./Blog.js";
-import blogs from "../Models/blogs.js";
+import blogs from "../../utils/seedData";
 
 class BlogList extends Component {
   constructor(props) {

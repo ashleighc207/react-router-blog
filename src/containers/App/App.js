@@ -1,8 +1,6 @@
 import React from "react";
 import "./App.css";
-import Nav from "./Components/Nav.js";
-import BlogList from "./Components/BlogList.js";
-import BlogContent from "./Components/BlogContent.js";
+import { Nav, BlogList, BlogContent } from "../../components";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {

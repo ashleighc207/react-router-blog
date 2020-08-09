@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./Blog.css";
 import BlogContent from "./BlogContent.js";
 import BlogList from "./BlogList.js";
-import blogs from "../Models/blogs.js";
+import blogs from "../../utils/seedData";
 
 class Blog extends Component {
   constructor(props) {

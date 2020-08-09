@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import blogs from "../Models/blogs.js";
+import blogs from "../../utils/seedData";
 import { Link } from "react-router-dom";
 import "./BlogContent.css";
 
