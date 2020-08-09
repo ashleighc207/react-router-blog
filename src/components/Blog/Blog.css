@@ -61,7 +61,8 @@
 
 @media screen and (max-width: 800px) {
   .Blog {
-    max-width: unset;
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
   }
 }
